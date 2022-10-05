@@ -1,7 +1,14 @@
-h1 {
+body {
+    background-color: rgb(31, 19, 79);
+    color: rgb(255, 255, 255);
+}
+
+h1,
+h2{
     text-align: center;
 }
 
+/*This block function came from the internet, I don't yet understand it. */
 .center {
     display: block;
     margin-left: auto;
@@ -13,7 +20,12 @@ div.centerText {
     text-align: center;
 }
 
+/*This block function came from the internet, I don't yet understand it. */
 ul.recipeList {
     display: inline-block;
     text-align: left;
+}
+
+a {
+    color: hotpink;
 }
